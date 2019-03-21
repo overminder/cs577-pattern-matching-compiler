@@ -1,0 +1,37 @@
+name:                pattern-matching-core
+version:             0.1.0.0
+license:             MIT
+author:              "Yuxiang Jiang"
+maintainer:          "yux@pdx.edu"
+
+extra-source-files:
+- README.md
+
+description:         CS 577 Final Project
+
+dependencies:
+- base >= 4.7 && < 5
+- containers
+- hspec
+- mtl
+- lens
+- directory
+- prettyprinter
+- parsec
+- indents
+- graphviz
+- text
+
+default-extensions:
+- LambdaCase
+- DeriveFunctor
+- FlexibleInstances
+- FlexibleContexts
+- ViewPatterns
+- RecordWildCards
+- PatternSynonyms
+- TupleSections
+- ScopedTypeVariables
+
+library:
+  source-dirs: src
